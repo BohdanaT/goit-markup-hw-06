@@ -500,13 +500,16 @@ img {
 .footer-content {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 
 .footer .logo {
     display: inline-block;
 
     margin-bottom: 16px;
+}
+
+.footer-logo-section {
+    margin-right: 120px;
 }
 
 .footer-text {
@@ -533,6 +536,10 @@ img {
 }
 
 /* Footer socials */
+.footer-socials-section {
+    margin-right: 80px;
+}
+
 .footer-socials {
     display: flex;
     justify-content: center;
